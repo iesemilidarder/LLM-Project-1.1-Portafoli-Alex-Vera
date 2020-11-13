@@ -1,9 +1,84 @@
 *{
-    background-color: beige;
+    background-color: black;
     margin: 0%;
-
 }
 
-body-nav {
-            background-color: blue;
+.grid{
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.nav-bit{
+    font-size: 40px;
+    color: lightgoldenrodyellow;
+    font-family: 'Lato', sans-serif;
+    margin-left: 8px;
+}
+
+.nav-grid{
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.body-main{
+    color: burlywood;
+    font-weight: 100;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.txt{
+    font-size: 35px;
+}
+
+.nombre{
+    font-size: 45px;
+}
+
+.tabla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: burlywood;
+    padding: 3px;
+    grid-gap: 3px;
+    text-align: center;
+}
+
+.minf{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: dimgrey;
+}
+
+.smi{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    color: grey;
+}
+
+.msmi{
+    font-size: 35px;
+}
+
+.esmi{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.smi-txt{
+    margin-top: 15px;
 }
